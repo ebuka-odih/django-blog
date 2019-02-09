@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<br><br>
+<div class="container pb-5 px-4 col-md-8 border-0 align-self-center">
+     <div class="row p-0 profile-card">
+       <div class="col-md-5 p-0 image-block rounded-left align-self-center" >
+               <figure class="Limage purp m-0">
+                  <img src="https://image.ibb.co/dUFkmT/111.jpg" height="581" width="388" />
+                  <figcaption>
+                     <h2>Georgia <span>Frost</span></h2>
+                     <p>Style is a way to say who you are without having to speak.</p>
+                     <div class="icons">
+                        <a href="#"><i class="ion-social-facebook"></i></a>
+                        <a href="#"><i class="ion-social-twitter"></i></a>
+                        <a href="#"><i class="ion-social-instagram"></i></a>
+                     </div>
+                  </figcaption>
+         </figure>
+       </div>
+       <div class="col-md-7 content1-block rounded-right py-1">
+         <div class="tab1">
+           <ul class="nav nav-tabs row p-3" role="tablist">
+                     <li class="list-group active" role="presentation"><a class="afull" href="#Section1" aria-controls="home" role="tab" data-toggle="tab"><i class="ion-ios-person px-2 icon-1"></i><span>BIO</span></a></li>
+                     <li class="list-group" role="presentation"><a class="afull" href="#Section2" aria-controls="profile" role="tab" data-toggle="tab"><i class="ion-images px-2 icon-1"></i><span>PORTFOLIO</span></a></li>
+                     <li class="list-group" role="presentation"><a class="afull" href="#Section3" aria-controls="messages" role="tab" data-toggle="tab"><i class="ion-ios-information-outline px-2 icon-1"></i><span>ABOUT</span></a></li>
+                     <li class="list-group" role="presentation"><a class="afull" href="#Section4" aria-controls="messages" role="tab" data-toggle="tab"><i class="ion-ios-telephone px-2 icon-2"></i><span>CONTACT</span></a></li>
+                    </ul>
+                    <div class="tab-content tabs">
+                        <div role="tabpanel" class="tab-pane active scrollbar-1" id="Section1">
+                        <p>
+                           <strong>Name :</strong> Georgia Frost <br />
+                           <strong>Birthday :</strong> July 30, 1990 <br />
+                           <strong>Nationality :</strong> British <br />
+                           <strong>Zodiac sign :</strong> Sagittarius <br />
+                           <strong>Primary residence :</strong> London, England <br />
+                           <strong>Experience :</strong> 6 years <br />
+                           <strong>Status :</strong> Established <br />
+                           <strong>Muse for :</strong> Lacoste <br />
+                           <strong>Known for :</strong> My lips, my eyes <br />
+
+                           <strong>Married :</strong> Clyde Drexler (2001) <br />
+                           <strong>Interests :</strong> Wheel of Fortune, motoring, golf, tennis. <br />
+                        </p>
+                        <hr class="col-md-3" />
+                        <p>&quot;I am Georgia Frost and for last 6 years I worked as a photo model. I have a huge passion for acting and I love being in front of the camera. I mainly shoot fashion, swimwear and lingerie but I also enjoy creative projects like bodypaint or dress up. I am currently modeling for XYZ  Model Agency and individual photographers. My photos were published in ABC and  CBA magazines and I was part of LALALA campaign.</p>
+                        <p>I am available for photo shoots in California, but available to travel to other destinations in US. I am tall (5’11’), long hair natural brunette with tanned skin, which makes me a good model for swimwear and lingerie photos.&quot;</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane scrollbar-1" id="Section2">
+                    <div class="row-images row" style="margin-right:0 !important;">
+                        <div class="column-images col-md-6 pr-0"> <img src="https://preview.ibb.co/fXHZD8/m2.jpg" class="m-0" style="width:100%" /> <img src="https://image.ibb.co/eMG0mT/m5.jpg" style="width:100%" /> <img src="https://preview.ibb.co/hRbBt8/m3.jpg" style="width:100%" /> <img src="https://image.ibb.co/njA4D8/m6.jpg" style="width:100%" /> <img src="https://preview.ibb.co/hU0t6T/m4.jpg" style="width:100%" /> <img src="https://image.ibb.co/mov4D8/m8.jpg" style="width:100%" /> </div>
+                        <div class="column-images col-md-6 pr-0"> <img src="https://image.ibb.co/dSPWt8/m10.jpg" class="m-0" style="width:100%" /> <img src="https://image.ibb.co/fp3fmT/m7.jpg" style="width:100%" /> <img src="https://image.ibb.co/jTRY6T/m9.jpg" style="width:100%" /> <img src="https://preview.ibb.co/kuxefo/m1.jpg" style="width:100%" /> <img src="https://image.ibb.co/jaMN0o/m11.jpg" style="width:100%" /> <img src="https://preview.ibb.co/kuxefo/m1.jpg" style="width:100%" /> </div>
+                    </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane scrollbar-1" id="Section3">
+                    <hr class="hr-text" data-content="Overview" />
+                        <p>A Fashion Model with 6 years experience in industrial projects, successfully modeled for brands such as [A, B, C] and possesses the specific attributes that many designers and fashion directors look for. Known for being flexible, adaptable, very stylish, versatile, efficient, hard-working, good at taking directions and capable of wearing all types of clothing styles.</p>
+                        <hr class="hr-text" data-content="Appearance" />
+                    <ul>
+                    <li>Height &amp; Weight : 6’0”/1.84m, 128lbs / 58 kg</li>
+                           <li>Size : 90/60/90</li>
+                           <li>Eyes : Blue, Wide Set</li>
+                           <li>Hair : Light Brunette</li>
+                        </ul>
+                        </p>
+                        <hr class="hr-text" data-content="Type of Modeling" />
+                        <p>Editorial | Runway/Ramp | Catalogue | Print Showroom | Lingerie | Swimwear | Sport/Fitness | Product</p>
+                        <hr class="hr-text" data-content="Key Skills and Qualities" />
+                        <ul>
+                            <li>Good sense of style – Great facial projection.</li>
+                           <li>Positive attitude, excellent stamina and communication skills.</li>
+                           <li>Ability to look good at all times.</li>
+                           <li>Know of how to dress up properly.</li>
+                           <li>Excellent walking posture – Familiarity in different poses.</li>
+                        </ul>
+                        </p>
+                        <hr class="hr-text" data-content="Objectives" />
+                        <p>To work in a fashion firm, in which I can utilize my modeling skills to become a perfect link between the brands and their clients.
+                        </p>
+                        <hr class="hr-text" data-content="Professional Experience" />
+                        <ul>
+                            <li>Promoted new designs, products, clothes and services in television shows, films and videos.</li>
+                           <li>Presented clothing, designs and products in commercials, advertisements, and/or fashion shows.</li>
+                        </ul>
+                        </p>
+                                </div>
+                    <div role="tabpanel" class="tab-pane" id="Section4">
+                    <div class="signup-form">
+                        <form class="px-4">
+                           <div class="contact-header text-center m-3 pb-3">Get in Touch!</div>
+                           <div class="row">
+                              <div class="input-group form-group col-md-6">
+                                 <input type="text" class="form-control" placeholder="First Name" />
+                              </div>
+                              <div class="input-group form-group col-md-6">
+                                 <input type="text" class="form-control" placeholder="Last Name" />
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="input-group form-group col-md-6">
+                                 <input type="email" class="form-control" placeholder="E-Mail ID" />
+                              </div>
+                              <div class="input-group form-group col-md-6">
+                                 <input type="number" class="form-control" placeholder="Phone Number" />
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <input type="text" class="form-control" placeholder="What's your purpose?" />
+                           </div>
+                           <div class="form-group">
+                              <textarea class="form-control" placeholder="Enter Your Message" style="max-height:72px; min-height:72px"></textarea>
+                           </div>
+                           <div class="form-group text-center">
+                              <button class="btn-grad btn col-md-3"><i class="ion-android-send pr-2"></i>SEND</button>
+                           </div>
+                    </form>
+                    </div>
+                    </div>    
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="page-body">
+<div style="margin-top: 20px;" class="container border-top pt-3" id="" role="">
+<div class="col-md-12">
+    {% if messages %}
+        {% for message in messages %}
+            <div class="text-center alert-success alert{{ massage.tags }}">
+                {{ message }}
+            </div>
+    {% endfor %}
+    {% endif %}
+  </div>
+<div class="card">
+<div class="card-header">
+<h5 class="card-header-text">About Me</h5>
+<button id="edit-btn" type="button" class="btn btn-sm btn-primary waves-effect waves-light f-right">
+<i class="icofont icofont-edit"></i>
+</button>
+
+<div class="col-lg-12 col-md-8">
+    <img height="240px" width="230" src="{{ user.profile.image.url }}" class="rounded-circle mx-auto d-block" alt="profile">
+    <div class="col-md-12">
+        <h2 style="margin-top: 5px;" class="text-center">{{ user.username|capfirst }}</h2>
+    </div>
+</div>
+</div>
+<div class="card-block">
+<div class="view-info">
+<div class="row">
+<div class="col-lg-11 offset-1">
+<div class="general-info">
+<div class="row">
+<div class="col-lg-19 col-xl-6">
+<div class="table-responsive">
+<table class="table m-0">
+<tbody>
+<tr>
+<th scope="row">Full Name</th>
+<td>{{ user.profile.fullname|title }}</td>
+</tr>
+<tr>
+<th scope="row">Location</th>
+<td>{{ user.profile.address }}</td>
+</tr>
+<tr>
+<th scope="row">Email</th>
+<td><a href="#" target="_blank"><span class="__cf_email__" data-cfemail="eeaa8b8381ae8b968f839e828bc08d8183">{{ user.email }}</span></a></td>
+</tr>
+<tr>
+ <td><a style="text-decoration: none;" href="{{ user.profile.facebook_page }}" target="_blank" class="fab fa-facebook fa-primary fa-2x"></a></td>
+</tr>
+<tr>
+<td><a style="text-decoration: none;" href="{{ user.profile.twitter_link }}" target="_blank" class="fab fa-twitter fa-primary fa-2x"></a></td>
+</tr>
+<tr>
+<td><a style="text-decoration: none;" href="{{ user.profile.instagram_page }}" target="_blank" class="fab fa-instagram  fa-2x"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div><br>
+<div class="col-lg-6">
+<div class="table-responsive">
+    <div class="border-top pt-2">
+        <h3 class="text-dark text-bold text-center">Bio</h3>
+    </div>
+    <div class="border-top pt-3">{{ user.profile.bio }}</div>
+</div>
+</div>
+</div>
+<div class="container border-top pt-3">
+<div class="col-10">
+<form method="POST">
+    {% csrf_token %}
+    <p style="margin-top: 3em;" class="h4 mb-4 text-center text-bold ">Profile Info</p>
+      <div class="form-row">
+        <div class="col">
+            {{ u_form|crispy  }}
+            {{ p_form|crispy  }}
+        </div>
+      </div>
+     <button type="submit" class="btn btn-outline-secondary">Update</button>
+  </form>
+  </div>
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+{% endblock content %}
